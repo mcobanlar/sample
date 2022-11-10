@@ -11,14 +11,14 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
+- script: echo Hello, world! step
   displayName: 'Run a one-line script'
 - task: CmdLine@2
   inputs:
     script: |
       echo Write your commands here
       
-      echo Hello world
+      echo Hello world input
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
